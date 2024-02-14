@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import BeyableClient
+
 
 struct ContentView: View {
     @EnvironmentObject var stateStore: StateStore // This will traverse environment and find matching object based on type

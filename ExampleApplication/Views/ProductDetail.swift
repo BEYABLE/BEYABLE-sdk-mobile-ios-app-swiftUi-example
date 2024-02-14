@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-import BeyableClient
+
 
 struct ProductDetail: View {
 

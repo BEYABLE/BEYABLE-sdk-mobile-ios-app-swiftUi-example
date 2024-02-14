@@ -3,7 +3,6 @@
 //  BeyableExampleApplication
 //
 //  Created by Brahim Ouamassi
-
 //
 
 import SwiftUI

@@ -6,62 +6,47 @@
 	objectVersion = 54;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B1CC81918757D53924EE8EAE3C89E490 /* BeyableClient */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 66D5938E74FAD7414B85464842A504A8 /* Build configuration list for PBXAggregateTarget "BeyableClient" */;
+			buildPhases = (
+				ABC86A2BBE13363530E730ED8A50B9BD /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = BeyableClient;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		014DDEA3631DA82A7A5C93208B338652 /* EndpointUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594051E4AF2E9E6CA95A8402D753D1C4 /* EndpointUrl.swift */; };
-		0428108A286F3D5B4EBD34EF71B24D99 /* FactoryCampaignDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62674EFEE557580034FE30F67124300 /* FactoryCampaignDto.swift */; };
-		09FD8081480EFD21B31C164AF50DADF3 /* SendViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04C1B47D8624D46FA86BFF4A1C4448E /* SendViewService.swift */; };
 		0EB1920445C31BD74574C2A6284956DF /* Pods-ExampleApplication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 137735BED74E696B768FA48104906F94 /* Pods-ExampleApplication-dummy.m */; };
-		0F8FF0E44D612B6B85093CB4EEC74918 /* BYHandleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6D3F0147A1F6289D5D79E7C538F915 /* BYHandleViews.swift */; };
-		28840DCA6C0377F68735771415D876C3 /* BeyableClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C40FAE251CFD132B8369ADD94FD3D86D /* BeyableClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BA5810BE1044277C820A007A88A6D8E /* BeyableDataAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86150243F8E9FC9E816E62B92DDC1A8C /* BeyableDataAPIError.swift */; };
-		2EB394FF99A636D0A0218A11B8B6A617 /* EPageUrlTypeBeyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EADB62F7CA809C88F1D73CB3701A18 /* EPageUrlTypeBeyable.swift */; };
-		331BCF5CA624E48DD0B4AE1972D2A71C /* DataStorageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE190A79EC548A1E8A56706EC02180BF /* DataStorageHelper.swift */; };
-		34B0E2451D043D4DF9C38ACAEEEF4447 /* BeyableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E49165636F04FF55EC4082EB3C8BCBC /* BeyableService.swift */; };
-		3E01559C6A12E16F97546199E3CCD62E /* LogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8792E03E444FA92B16DF81735C8DBB55 /* LogHelper.swift */; };
-		440E1FEB47D6FC122C65E75949EA086C /* CampaignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE57C16A88BD93FF52DC9DA1EB1FC823 /* CampaignView.swift */; };
-		45E9F0D93CDE07078668451B85794C1F /* MessageJavascript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777496169DA2AD6BEAF10312B31FD692 /* MessageJavascript.swift */; };
-		4B3C701485E17AA35E8911B56F030E3E /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804464A7EEC5B27E9A7F0D0F5A020DF /* ViewExtensions.swift */; };
 		6BF8FD2C1B3A410BB705E3D37817E362 /* Pods-ExampleApplication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DD4E59D489028E2F82EEF3FE2DB741 /* Pods-ExampleApplication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77A41BC1B3A6E8583ACE15517CEDDBFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		89BD8AE0EF6C15531A05681A19D7A41D /* AcknowledgedisplayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D777A2759F6EF24128E63A06E335DFC /* AcknowledgedisplayRequest.swift */; };
-		8A1323DD42F636A67DE8ACA4759DAF30 /* BeyableClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6942A6DE782A44AD1B6C072F22FC52D /* BeyableClient-dummy.m */; };
-		8C7D6812DC612DDB4C14675178C833A2 /* BeyableResponseDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65B19404124002C1AFDCDAA6AFF6AF5 /* BeyableResponseDisplay.swift */; };
-		9782CCF790DF04C66243186657BA69DF /* BeyableClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AEBE183BA29D75DB85E3261B642C905 /* BeyableClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AC154BED4865A1F3CEB46CDD51CFA5D /* InPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9400E4DFCFE9BC53B9C08461B872EC /* InPageView.swift */; };
-		A036CE7D2015C4EAF1C68B6D6BD5E461 /* BYRequestPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A105C1818E06BDDCADF15F20E7FD372D /* BYRequestPageView.swift */; };
-		A438F5F1E4A178C4B7E3721153B75C58 /* CampaignDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9CC840757ACF3905C629CC037EDAE /* CampaignDTO.swift */; };
-		A4C273CC3769538DD66EB12F0F7D2C5D /* BeyableResponseAcknowledgedisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3320AD9B23073F0DA17A9FE93F49C5 /* BeyableResponseAcknowledgedisplay.swift */; };
 		A643ECE18F61A7063AF97B4C6B91F155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A69D9EFD3499385B0D236C867345D87C /* AcknowledgedisplayClosedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A65E04AEFEC98933215A8570080175B /* AcknowledgedisplayClosedRequest.swift */; };
-		A8CA421C5DFCAE3FB9483305FAE60BE1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED620B8C9DF7F524BF7B2ACFBA99AEC /* HeaderView.swift */; };
-		B63135936D51CA3C0DBA3EF04F6A973E /* BeyableClientiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1498E14A6A740F6DB477BB77CCB7390 /* BeyableClientiOS.swift */; };
-		BB4B838929C88ECE6CB4A238CCB5D204 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E20180D22B7D0149341EDA9F2200C2E /* OverlayView.swift */; };
 		BE4AA907EFD0559C4DA435E94E22D24E /* Pods-ExampleApplicationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C4470715B1EEC2E3F3BE017F32682A /* Pods-ExampleApplicationTests-dummy.m */; };
 		C170A42B5F3D18ABF863AC17F92EF409 /* Pods-ExampleApplication-ExampleApplicationUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90100E19A335478AB10A7D7E04470157 /* Pods-ExampleApplication-ExampleApplicationUITests-dummy.m */; };
 		C71B17046468E3C38C758E6749E1A34B /* Pods-ExampleApplication-ExampleApplicationUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDB09D93E5187AA2AE9DD1BDC9FEE56 /* Pods-ExampleApplication-ExampleApplicationUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D397C10A9878D2EEC3955FE851F6E36B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D967123B54A9029C4535F677ADE5631C /* HostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A6610E1FC8632DE950A7BF42D228DB /* HostingView.swift */; };
-		DCA2E0191C015B08B16F9D7A30680803 /* WebViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC0EA653FEAB59E6B732A55095D6CD /* WebViewUtils.swift */; };
 		EF204A4443CBC7C4627D28062304FA77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F3946078796FC66BA7526F6A6086784B /* Pods-ExampleApplicationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC071E70CA4D430F3F45C98D3CB3C73 /* Pods-ExampleApplicationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		192096A16EB60290A4B9D6C53796BD8E /* PBXContainerItemProxy */ = {
+		558E68AF3D248AC9FC1818BD0BF209F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B1CC81918757D53924EE8EAE3C89E490;
 			remoteInfo = BeyableClient;
 		};
-		B26FB63E159E092D66461C8FC97FDF67 /* PBXContainerItemProxy */ = {
+		AA8ECCD592CD394109110A15E61220F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C7B67AF71D529A2FD73F0B1142F8B4D8;
 			remoteInfo = "Pods-ExampleApplication";
 		};
-		EB6C952B1D658FB0DD861689AE79981A /* PBXContainerItemProxy */ = {
+		BF47F927D2F7C675148DB3BEB0AD956D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -71,73 +56,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0116FFE35366BBA757071CE84A3BB689 /* BeyableClient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BeyableClient.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		017371810F9ECCCC7E09249B6FDF7192 /* Pods-ExampleApplication-ExampleApplicationUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleApplication-ExampleApplicationUITests-frameworks.sh"; sourceTree = "<group>"; };
 		137735BED74E696B768FA48104906F94 /* Pods-ExampleApplication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleApplication-dummy.m"; sourceTree = "<group>"; };
 		16203AFD972C428AE4E6F7C8FD6088DC /* Pods-ExampleApplication-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleApplication-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1679DB7D5635C79EA5377BDB68149E67 /* Pods-ExampleApplication-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleApplication-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A65E04AEFEC98933215A8570080175B /* AcknowledgedisplayClosedRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AcknowledgedisplayClosedRequest.swift; sourceTree = "<group>"; };
-		1B6D3F0147A1F6289D5D79E7C538F915 /* BYHandleViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BYHandleViews.swift; sourceTree = "<group>"; };
-		1B9400E4DFCFE9BC53B9C08461B872EC /* InPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InPageView.swift; sourceTree = "<group>"; };
-		1C3320AD9B23073F0DA17A9FE93F49C5 /* BeyableResponseAcknowledgedisplay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeyableResponseAcknowledgedisplay.swift; sourceTree = "<group>"; };
 		264764123738A8351814AB45279FA928 /* Pods-ExampleApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D777A2759F6EF24128E63A06E335DFC /* AcknowledgedisplayRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AcknowledgedisplayRequest.swift; sourceTree = "<group>"; };
 		2E48CB537DA8489E5F67A33A48BC2608 /* Pods-ExampleApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		36C4470715B1EEC2E3F3BE017F32682A /* Pods-ExampleApplicationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleApplicationTests-dummy.m"; sourceTree = "<group>"; };
-		3E20180D22B7D0149341EDA9F2200C2E /* OverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		3EE2A127E2BA13BDE0249919489B7AB0 /* Pods-ExampleApplication-ExampleApplicationUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleApplication-ExampleApplicationUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		40631618C785A5AE0A0A975B2EDC79DE /* Pods-ExampleApplication */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ExampleApplication"; path = Pods_ExampleApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4131693484E801B7AE4E2544C50C19AC /* Pods-ExampleApplication-ExampleApplicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleApplication-ExampleApplicationUITests.release.xcconfig"; sourceTree = "<group>"; };
 		471EC5E45344B9536895A00E978EBE97 /* Pods-ExampleApplicationTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ExampleApplicationTests"; path = Pods_ExampleApplicationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B17A86A1A848830A2DC4A09163ADF5 /* Pods-ExampleApplication-ExampleApplicationUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleApplication-ExampleApplicationUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4AC3845D644F599377A4AFBD92CE577F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4FF024B5AE6AD12E0C341BFCAEFBACA0 /* Pods-ExampleApplication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleApplication-Info.plist"; sourceTree = "<group>"; };
 		53B2A3029A4BD15329D352DB434B3ADF /* Pods-ExampleApplicationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleApplicationTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		594051E4AF2E9E6CA95A8402D753D1C4 /* EndpointUrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndpointUrl.swift; sourceTree = "<group>"; };
 		5BAC71F4B63FE63D4D49FF2937AE10A1 /* Pods-ExampleApplicationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleApplicationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		62DD4E59D489028E2F82EEF3FE2DB741 /* Pods-ExampleApplication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleApplication-umbrella.h"; sourceTree = "<group>"; };
-		65D4C49F539CDC5A117F18796ED89465 /* BeyableClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BeyableClient.modulemap; sourceTree = "<group>"; };
-		6AEBE183BA29D75DB85E3261B642C905 /* BeyableClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeyableClient-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		777496169DA2AD6BEAF10312B31FD692 /* MessageJavascript.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MessageJavascript.swift; sourceTree = "<group>"; };
 		7C5CD53CADC8B5F0637261D68203676F /* Pods-ExampleApplicationTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		7CDB09D93E5187AA2AE9DD1BDC9FEE56 /* Pods-ExampleApplication-ExampleApplicationUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleApplication-ExampleApplicationUITests-umbrella.h"; sourceTree = "<group>"; };
-		86150243F8E9FC9E816E62B92DDC1A8C /* BeyableDataAPIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeyableDataAPIError.swift; sourceTree = "<group>"; };
-		86EADB62F7CA809C88F1D73CB3701A18 /* EPageUrlTypeBeyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EPageUrlTypeBeyable.swift; sourceTree = "<group>"; };
-		8792E03E444FA92B16DF81735C8DBB55 /* LogHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogHelper.swift; sourceTree = "<group>"; };
 		8A800638EABA294D139382A2B9EFAEDC /* Pods-ExampleApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleApplication.release.xcconfig"; sourceTree = "<group>"; };
-		8E49165636F04FF55EC4082EB3C8BCBC /* BeyableService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeyableService.swift; sourceTree = "<group>"; };
 		90100E19A335478AB10A7D7E04470157 /* Pods-ExampleApplication-ExampleApplicationUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleApplication-ExampleApplicationUITests-dummy.m"; sourceTree = "<group>"; };
-		90A389B10CABB9D06B4FDC468088490F /* BeyableClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeyableClient.debug.xcconfig; sourceTree = "<group>"; };
 		954CB07D40F9A1DA303DD9A538FCD0B2 /* Pods-ExampleApplicationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleApplicationTests.modulemap"; sourceTree = "<group>"; };
-		991047DB6229601D944BAD2D611E8B1E /* BeyableClient */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BeyableClient; path = BeyableClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AE9CC840757ACF3905C629CC037EDAE /* CampaignDTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignDTO.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E17A56189CC346FA6A1CC7D79214D03 /* Pods-ExampleApplication-ExampleApplicationUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleApplication-ExampleApplicationUITests-Info.plist"; sourceTree = "<group>"; };
-		9F947809E95BEB3CED967927E2F01581 /* BeyableClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeyableClient.release.xcconfig; sourceTree = "<group>"; };
-		A04C1B47D8624D46FA86BFF4A1C4448E /* SendViewService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SendViewService.swift; sourceTree = "<group>"; };
-		A105C1818E06BDDCADF15F20E7FD372D /* BYRequestPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BYRequestPageView.swift; sourceTree = "<group>"; };
-		A804464A7EEC5B27E9A7F0D0F5A020DF /* ViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		A4A605E49B5229B90F01F0D807D640C5 /* BeyableClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeyableClient.release.xcconfig; sourceTree = "<group>"; };
 		A9F6BDAD46DC6862C6DE48DCB93E81B3 /* Pods-ExampleApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleApplication.debug.xcconfig"; sourceTree = "<group>"; };
-		ACFC0EA653FEAB59E6B732A55095D6CD /* WebViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebViewUtils.swift; sourceTree = "<group>"; };
-		AE190A79EC548A1E8A56706EC02180BF /* DataStorageHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataStorageHelper.swift; sourceTree = "<group>"; };
 		B12733E552E85141DE289D32705A080A /* Pods-ExampleApplication-ExampleApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleApplication-ExampleApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B21D31D7F86D9FE66AD7D5CD62B1BF49 /* BeyableClient.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = BeyableClient.xcframework; sourceTree = "<group>"; };
 		B47EB0BB4CA815782AD1D0610F2A53A1 /* Pods-ExampleApplication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleApplication.modulemap"; sourceTree = "<group>"; };
-		B8EBC3C31462DE3DF3C4638D0BA29714 /* BeyableClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeyableClient-prefix.pch"; sourceTree = "<group>"; };
-		B8F3AE82F056B1A86688969280DBA55F /* BeyableClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BeyableClient-Info.plist"; sourceTree = "<group>"; };
 		BFC071E70CA4D430F3F45C98D3CB3C73 /* Pods-ExampleApplicationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleApplicationTests-umbrella.h"; sourceTree = "<group>"; };
-		C1498E14A6A740F6DB477BB77CCB7390 /* BeyableClientiOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeyableClientiOS.swift; path = BeyableClient/BeyableClientiOS.swift; sourceTree = "<group>"; };
-		C40FAE251CFD132B8369ADD94FD3D86D /* BeyableClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeyableClient.h; path = BeyableClient/BeyableClient.h; sourceTree = "<group>"; };
 		CCF5926630FDF2BCE161AFEAAAA7449C /* Pods-ExampleApplication-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleApplication-frameworks.sh"; sourceTree = "<group>"; };
-		CE647358164710D5ED3233ACBFB54376 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
-		E65B19404124002C1AFDCDAA6AFF6AF5 /* BeyableResponseDisplay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeyableResponseDisplay.swift; sourceTree = "<group>"; };
-		E6942A6DE782A44AD1B6C072F22FC52D /* BeyableClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeyableClient-dummy.m"; sourceTree = "<group>"; };
-		EED620B8C9DF7F524BF7B2ACFBA99AEC /* HeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D233F2629DF65B237C4AC88BEB381DBD /* BeyableClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeyableClient.debug.xcconfig; sourceTree = "<group>"; };
 		F410C3ED11B33E5E31B810B74F8EAE45 /* Pods-ExampleApplication-ExampleApplicationUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleApplication-ExampleApplicationUITests.modulemap"; sourceTree = "<group>"; };
 		F567484F0F88A5775DD4156E3B0E4682 /* Pods-ExampleApplication-ExampleApplicationUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ExampleApplication-ExampleApplicationUITests"; path = Pods_ExampleApplication_ExampleApplicationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F62674EFEE557580034FE30F67124300 /* FactoryCampaignDto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FactoryCampaignDto.swift; sourceTree = "<group>"; };
-		F9A6610E1FC8632DE950A7BF42D228DB /* HostingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HostingView.swift; sourceTree = "<group>"; };
-		FE57C16A88BD93FF52DC9DA1EB1FC823 /* CampaignView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignView.swift; sourceTree = "<group>"; };
+		F715D8FCD98C2CC7EB5C0C2D9D4C04C7 /* BeyableClient-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "BeyableClient-xcframeworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,14 +110,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4504A3CBABC51E313DDC12B78058FE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D397C10A9878D2EEC3955FE851F6E36B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F155DA774F398C9DFD4CB2C7AC3D5FEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -176,15 +121,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DBDFAD066FCA830BA52293ECF8DFC69 /* Request */ = {
+		18D18F44C515C5B72739ED65A78E133A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1A65E04AEFEC98933215A8570080175B /* AcknowledgedisplayClosedRequest.swift */,
-				2D777A2759F6EF24128E63A06E335DFC /* AcknowledgedisplayRequest.swift */,
-				A105C1818E06BDDCADF15F20E7FD372D /* BYRequestPageView.swift */,
+				B21D31D7F86D9FE66AD7D5CD62B1BF49 /* BeyableClient.xcframework */,
 			);
-			name = Request;
-			path = Request;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		27C219123E591EA4FC16408897D01688 /* Pods-ExampleApplication-ExampleApplicationUITests */ = {
@@ -202,48 +144,6 @@
 			);
 			name = "Pods-ExampleApplication-ExampleApplicationUITests";
 			path = "Target Support Files/Pods-ExampleApplication-ExampleApplicationUITests";
-			sourceTree = "<group>";
-		};
-		2A8AC4C2BD7645DB6F89D3105CF9A981 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F4DD4EFF951C772BF51C6AA97F68B186 /* BeyableClient */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		33DF13ECA44E655480AAB0EEB328A517 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				65D4C49F539CDC5A117F18796ED89465 /* BeyableClient.modulemap */,
-				E6942A6DE782A44AD1B6C072F22FC52D /* BeyableClient-dummy.m */,
-				B8F3AE82F056B1A86688969280DBA55F /* BeyableClient-Info.plist */,
-				B8EBC3C31462DE3DF3C4638D0BA29714 /* BeyableClient-prefix.pch */,
-				6AEBE183BA29D75DB85E3261B642C905 /* BeyableClient-umbrella.h */,
-				90A389B10CABB9D06B4FDC468088490F /* BeyableClient.debug.xcconfig */,
-				9F947809E95BEB3CED967927E2F01581 /* BeyableClient.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../example_application_swiftui/Pods/Target Support Files/BeyableClient";
-			sourceTree = "<group>";
-		};
-		40AAD23C52ABA315C37FEB98197713A2 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				A804464A7EEC5B27E9A7F0D0F5A020DF /* ViewExtensions.swift */,
-			);
-			name = Extension;
-			path = BeyableClient/Extension;
-			sourceTree = "<group>";
-		};
-		4A716F0D36A4F563D3B3F02C144A036F /* DTO */ = {
-			isa = PBXGroup;
-			children = (
-				9AE9CC840757ACF3905C629CC037EDAE /* CampaignDTO.swift */,
-				F62674EFEE557580034FE30F67124300 /* FactoryCampaignDto.swift */,
-			);
-			name = DTO;
-			path = BeyableClient/DTO;
 			sourceTree = "<group>";
 		};
 		4DE1C1A674A644593F2ABD4C6B26B84B /* Pods-ExampleApplicationTests */ = {
@@ -270,27 +170,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		594EC57EF45D7B61202088D6E759211A /* Views */ = {
+		636C8A5CCAB9F29870E6BE88E716FA08 /* BeyableClient */ = {
 			isa = PBXGroup;
 			children = (
-				1B6D3F0147A1F6289D5D79E7C538F915 /* BYHandleViews.swift */,
-				FE57C16A88BD93FF52DC9DA1EB1FC823 /* CampaignView.swift */,
-				EED620B8C9DF7F524BF7B2ACFBA99AEC /* HeaderView.swift */,
-				F9A6610E1FC8632DE950A7BF42D228DB /* HostingView.swift */,
-				1B9400E4DFCFE9BC53B9C08461B872EC /* InPageView.swift */,
-				3E20180D22B7D0149341EDA9F2200C2E /* OverlayView.swift */,
+				18D18F44C515C5B72739ED65A78E133A /* Frameworks */,
+				DD171775368DA8AD71E63453D726115F /* Support Files */,
 			);
-			name = Views;
-			path = BeyableClient/Views;
+			name = BeyableClient;
+			path = BeyableClient;
 			sourceTree = "<group>";
 		};
-		77785751B34870183AADB8664E1014FD /* Repository */ = {
+		8C23EC5B99238AD32D66A802E54DE93C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A04C1B47D8624D46FA86BFF4A1C4448E /* SendViewService.swift */,
+				636C8A5CCAB9F29870E6BE88E716FA08 /* BeyableClient */,
 			);
-			name = Repository;
-			path = BeyableClient/Repository;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		8CC7C21FE0C0480728379378DA3E65FF /* Pods-ExampleApplication */ = {
@@ -320,20 +215,9 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9619099203151E6540435714817F3239 /* Services */ = {
+		C36209D6AB69A89422CCDA4E1C4B9301 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86150243F8E9FC9E816E62B92DDC1A8C /* BeyableDataAPIError.swift */,
-				8E49165636F04FF55EC4082EB3C8BCBC /* BeyableService.swift */,
-			);
-			name = Services;
-			path = BeyableClient/Services;
-			sourceTree = "<group>";
-		};
-		9727E9B197F2AAA586CA4830AEDE2C8A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				991047DB6229601D944BAD2D611E8B1E /* BeyableClient */,
 				40631618C785A5AE0A0A975B2EDC79DE /* Pods-ExampleApplication */,
 				F567484F0F88A5775DD4156E3B0E4682 /* Pods-ExampleApplication-ExampleApplicationUITests */,
 				471EC5E45344B9536895A00E978EBE97 /* Pods-ExampleApplicationTests */,
@@ -341,56 +225,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A02C98EE9B1EB50524996F7496C1CA94 /* Response */ = {
-			isa = PBXGroup;
-			children = (
-				1C3320AD9B23073F0DA17A9FE93F49C5 /* BeyableResponseAcknowledgedisplay.swift */,
-				E65B19404124002C1AFDCDAA6AFF6AF5 /* BeyableResponseDisplay.swift */,
-			);
-			name = Response;
-			path = Response;
-			sourceTree = "<group>";
-		};
-		AE80DA5C82FB2CC3F3556EEE62034C29 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				AE190A79EC548A1E8A56706EC02180BF /* DataStorageHelper.swift */,
-				8792E03E444FA92B16DF81735C8DBB55 /* LogHelper.swift */,
-			);
-			name = Helpers;
-			path = BeyableClient/Helpers;
-			sourceTree = "<group>";
-		};
-		AED4AAD98D3B79FE98A3A1FC76C4FD6A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0116FFE35366BBA757071CE84A3BB689 /* BeyableClient.podspec */,
-				CE647358164710D5ED3233ACBFB54376 /* LICENSE.txt */,
-				4AC3845D644F599377A4AFBD92CE577F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B58D80F7201E77611ED1BC235C611781 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				594051E4AF2E9E6CA95A8402D753D1C4 /* EndpointUrl.swift */,
-				86EADB62F7CA809C88F1D73CB3701A18 /* EPageUrlTypeBeyable.swift */,
-				777496169DA2AD6BEAF10312B31FD692 /* MessageJavascript.swift */,
-				0DBDFAD066FCA830BA52293ECF8DFC69 /* Request */,
-				A02C98EE9B1EB50524996F7496C1CA94 /* Response */,
-			);
-			name = Models;
-			path = BeyableClient/Models;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2A8AC4C2BD7645DB6F89D3105CF9A981 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9727E9B197F2AAA586CA4830AEDE2C8A /* Products */,
+				8C23EC5B99238AD32D66A802E54DE93C /* Pods */,
+				C36209D6AB69A89422CCDA4E1C4B9301 /* Products */,
 				90D74F86219AA6BA30F0F805EA26D645 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -403,47 +244,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC252822528356EB2B8932C4E0EC1A5B /* Utils */ = {
+		DD171775368DA8AD71E63453D726115F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ACFC0EA653FEAB59E6B732A55095D6CD /* WebViewUtils.swift */,
+				F715D8FCD98C2CC7EB5C0C2D9D4C04C7 /* BeyableClient-xcframeworks.sh */,
+				D233F2629DF65B237C4AC88BEB381DBD /* BeyableClient.debug.xcconfig */,
+				A4A605E49B5229B90F01F0D807D640C5 /* BeyableClient.release.xcconfig */,
 			);
-			name = Utils;
-			path = BeyableClient/Utils;
-			sourceTree = "<group>";
-		};
-		F4DD4EFF951C772BF51C6AA97F68B186 /* BeyableClient */ = {
-			isa = PBXGroup;
-			children = (
-				C40FAE251CFD132B8369ADD94FD3D86D /* BeyableClient.h */,
-				C1498E14A6A740F6DB477BB77CCB7390 /* BeyableClientiOS.swift */,
-				4A716F0D36A4F563D3B3F02C144A036F /* DTO */,
-				40AAD23C52ABA315C37FEB98197713A2 /* Extension */,
-				AE80DA5C82FB2CC3F3556EEE62034C29 /* Helpers */,
-				B58D80F7201E77611ED1BC235C611781 /* Models */,
-				AED4AAD98D3B79FE98A3A1FC76C4FD6A /* Pod */,
-				77785751B34870183AADB8664E1014FD /* Repository */,
-				9619099203151E6540435714817F3239 /* Services */,
-				33DF13ECA44E655480AAB0EEB328A517 /* Support Files */,
-				EC252822528356EB2B8932C4E0EC1A5B /* Utils */,
-				594EC57EF45D7B61202088D6E759211A /* Views */,
-			);
-			name = BeyableClient;
-			path = ../../BeyableClient;
+			name = "Support Files";
+			path = "../Target Support Files/BeyableClient";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7B0681DCCC872E4E068AA79DE0914678 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28840DCA6C0377F68735771415D876C3 /* BeyableClient.h in Headers */,
-				9782CCF790DF04C66243186657BA69DF /* BeyableClient-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9260CD0AB145043CF6CDCAAAD70E220E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -483,29 +297,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				956601FF4376C7F37C31FE33994C0B0B /* PBXTargetDependency */,
+				7BAB7C94A3756ED55B9603D951D5BFFA /* PBXTargetDependency */,
 			);
 			name = "Pods-ExampleApplicationTests";
 			productName = Pods_ExampleApplicationTests;
 			productReference = 471EC5E45344B9536895A00E978EBE97 /* Pods-ExampleApplicationTests */;
-			productType = "com.apple.product-type.framework";
-		};
-		B1CC81918757D53924EE8EAE3C89E490 /* BeyableClient */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F5A260143C5AA6A0085234829127ECB1 /* Build configuration list for PBXNativeTarget "BeyableClient" */;
-			buildPhases = (
-				7B0681DCCC872E4E068AA79DE0914678 /* Headers */,
-				E1AB14976019A3AA11E428859F65B801 /* Sources */,
-				B4504A3CBABC51E313DDC12B78058FE9 /* Frameworks */,
-				4DD88B0FD43C9A11EBDED1CFE4759099 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BeyableClient;
-			productName = BeyableClient;
-			productReference = 991047DB6229601D944BAD2D611E8B1E /* BeyableClient */;
 			productType = "com.apple.product-type.framework";
 		};
 		B1D386A9DDA4B644F01704884E821C79 /* Pods-ExampleApplication-ExampleApplicationUITests */ = {
@@ -520,7 +316,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				32FA4378D0974F8C8FEBE5085A602535 /* PBXTargetDependency */,
+				A7B796F32F57AF370F3C8045A36F08D9 /* PBXTargetDependency */,
 			);
 			name = "Pods-ExampleApplication-ExampleApplicationUITests";
 			productName = Pods_ExampleApplication_ExampleApplicationUITests;
@@ -539,7 +335,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3343B5FA7F947133E92B7CC1F699D4C3 /* PBXTargetDependency */,
+				96A34FF4B6CE57582651040FF7A20D1E /* PBXTargetDependency */,
 			);
 			name = "Pods-ExampleApplication";
 			productName = Pods_ExampleApplication;
@@ -564,7 +360,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9727E9B197F2AAA586CA4830AEDE2C8A /* Products */;
+			productRefGroup = C36209D6AB69A89422CCDA4E1C4B9301 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -578,13 +374,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		29559EE898D97F7E3F92392B56F23D29 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DD88B0FD43C9A11EBDED1CFE4759099 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -606,6 +395,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABC86A2BBE13363530E730ED8A50B9BD /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BeyableClient/BeyableClient-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BeyableClient/BeyableClient-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/BeyableClient/BeyableClient-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7DF40A5AFC959C3D9F550FDC54BA629C /* Sources */ = {
@@ -632,58 +441,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1AB14976019A3AA11E428859F65B801 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A69D9EFD3499385B0D236C867345D87C /* AcknowledgedisplayClosedRequest.swift in Sources */,
-				89BD8AE0EF6C15531A05681A19D7A41D /* AcknowledgedisplayRequest.swift in Sources */,
-				8A1323DD42F636A67DE8ACA4759DAF30 /* BeyableClient-dummy.m in Sources */,
-				B63135936D51CA3C0DBA3EF04F6A973E /* BeyableClientiOS.swift in Sources */,
-				2BA5810BE1044277C820A007A88A6D8E /* BeyableDataAPIError.swift in Sources */,
-				A4C273CC3769538DD66EB12F0F7D2C5D /* BeyableResponseAcknowledgedisplay.swift in Sources */,
-				8C7D6812DC612DDB4C14675178C833A2 /* BeyableResponseDisplay.swift in Sources */,
-				34B0E2451D043D4DF9C38ACAEEEF4447 /* BeyableService.swift in Sources */,
-				0F8FF0E44D612B6B85093CB4EEC74918 /* BYHandleViews.swift in Sources */,
-				A036CE7D2015C4EAF1C68B6D6BD5E461 /* BYRequestPageView.swift in Sources */,
-				A438F5F1E4A178C4B7E3721153B75C58 /* CampaignDTO.swift in Sources */,
-				440E1FEB47D6FC122C65E75949EA086C /* CampaignView.swift in Sources */,
-				331BCF5CA624E48DD0B4AE1972D2A71C /* DataStorageHelper.swift in Sources */,
-				014DDEA3631DA82A7A5C93208B338652 /* EndpointUrl.swift in Sources */,
-				2EB394FF99A636D0A0218A11B8B6A617 /* EPageUrlTypeBeyable.swift in Sources */,
-				0428108A286F3D5B4EBD34EF71B24D99 /* FactoryCampaignDto.swift in Sources */,
-				A8CA421C5DFCAE3FB9483305FAE60BE1 /* HeaderView.swift in Sources */,
-				D967123B54A9029C4535F677ADE5631C /* HostingView.swift in Sources */,
-				9AC154BED4865A1F3CEB46CDD51CFA5D /* InPageView.swift in Sources */,
-				3E01559C6A12E16F97546199E3CCD62E /* LogHelper.swift in Sources */,
-				45E9F0D93CDE07078668451B85794C1F /* MessageJavascript.swift in Sources */,
-				BB4B838929C88ECE6CB4A238CCB5D204 /* OverlayView.swift in Sources */,
-				09FD8081480EFD21B31C164AF50DADF3 /* SendViewService.swift in Sources */,
-				4B3C701485E17AA35E8911B56F030E3E /* ViewExtensions.swift in Sources */,
-				DCA2E0191C015B08B16F9D7A30680803 /* WebViewUtils.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		32FA4378D0974F8C8FEBE5085A602535 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BeyableClient;
-			target = B1CC81918757D53924EE8EAE3C89E490 /* BeyableClient */;
-			targetProxy = EB6C952B1D658FB0DD861689AE79981A /* PBXContainerItemProxy */;
-		};
-		3343B5FA7F947133E92B7CC1F699D4C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BeyableClient;
-			target = B1CC81918757D53924EE8EAE3C89E490 /* BeyableClient */;
-			targetProxy = 192096A16EB60290A4B9D6C53796BD8E /* PBXContainerItemProxy */;
-		};
-		956601FF4376C7F37C31FE33994C0B0B /* PBXTargetDependency */ = {
+		7BAB7C94A3756ED55B9603D951D5BFFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ExampleApplication";
 			target = C7B67AF71D529A2FD73F0B1142F8B4D8 /* Pods-ExampleApplication */;
-			targetProxy = B26FB63E159E092D66461C8FC97FDF67 /* PBXContainerItemProxy */;
+			targetProxy = AA8ECCD592CD394109110A15E61220F1 /* PBXContainerItemProxy */;
+		};
+		96A34FF4B6CE57582651040FF7A20D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BeyableClient;
+			target = B1CC81918757D53924EE8EAE3C89E490 /* BeyableClient */;
+			targetProxy = BF47F927D2F7C675148DB3BEB0AD956D /* PBXContainerItemProxy */;
+		};
+		A7B796F32F57AF370F3C8045A36F08D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BeyableClient;
+			target = B1CC81918757D53924EE8EAE3C89E490 /* BeyableClient */;
+			targetProxy = 558E68AF3D248AC9FC1818BD0BF209F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -829,6 +606,41 @@
 			};
 			name = Debug;
 		};
+		438F137444D932390AE3E00721EBA932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D233F2629DF65B237C4AC88BEB381DBD /* BeyableClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F63A7E1DB7C8BB28791EF124FA62265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A605E49B5229B90F01F0D807D640C5 /* BeyableClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		713BBEB9B5893CCF97D3195E1BA9FDE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A800638EABA294D139382A2B9EFAEDC /* Pods-ExampleApplication.release.xcconfig */;
@@ -866,41 +678,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		7CE6325C65146DE16275851C400B4909 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90A389B10CABB9D06B4FDC468088490F /* BeyableClient.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BeyableClient/BeyableClient-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BeyableClient/BeyableClient-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/BeyableClient/BeyableClient.modulemap";
-				PRODUCT_MODULE_NAME = BeyableClient;
-				PRODUCT_NAME = BeyableClient;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		AAD3A96A10484F6D61E2549194BA12EF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1076,42 +853,6 @@
 			};
 			name = Debug;
 		};
-		FDC0ED6CE6BBF259F3EFBE59877FBFF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F947809E95BEB3CED967927E2F01581 /* BeyableClient.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BeyableClient/BeyableClient-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BeyableClient/BeyableClient-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/BeyableClient/BeyableClient.modulemap";
-				PRODUCT_MODULE_NAME = BeyableClient;
-				PRODUCT_NAME = BeyableClient;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1133,6 +874,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		66D5938E74FAD7414B85464842A504A8 /* Build configuration list for PBXAggregateTarget "BeyableClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438F137444D932390AE3E00721EBA932 /* Debug */,
+				4F63A7E1DB7C8BB28791EF124FA62265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DF4F838170E3F9EA4B35C92BC643A5D8 /* Build configuration list for PBXNativeTarget "Pods-ExampleApplication-ExampleApplicationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1147,15 +897,6 @@
 			buildConfigurations = (
 				EC2ED1FCF9DA018211A704AE46DE35C3 /* Debug */,
 				713BBEB9B5893CCF97D3195E1BA9FDE2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F5A260143C5AA6A0085234829127ECB1 /* Build configuration list for PBXNativeTarget "BeyableClient" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7CE6325C65146DE16275851C400B4909 /* Debug */,
-				FDC0ED6CE6BBF259F3EFBE59877FBFF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

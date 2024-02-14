@@ -9,6 +9,7 @@
 import UIKit
 import CoreData
 import BeyableClient
+
 import Combine
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

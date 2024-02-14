@@ -1,6 +1,0 @@
-framework module BeyableClient {
-  umbrella header "BeyableClient-umbrella.h"
-
-  export *
-  module * { export * }
-}

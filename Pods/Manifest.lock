@@ -1,16 +1,16 @@
 PODS:
-  - BeyableClient (0.0.934)
+  - BeyableClient (0.1.0)
 
 DEPENDENCIES:
-  - BeyableClient (from `../BeyableClient/`)
+  - BeyableClient
 
-EXTERNAL SOURCES:
-  BeyableClient:
-    :path: "../BeyableClient/"
+SPEC REPOS:
+  trunk:
+    - BeyableClient
 
 SPEC CHECKSUMS:
-  BeyableClient: aa2924080004ffddd9628b2969914b6139ca5fe7
+  BeyableClient: def061e8bd6b36840415b8c7cc1c8f98ba3c13f5
 
-PODFILE CHECKSUM: 3a85dab74d75e34c3e4f8088c0ae30591d465674
+PODFILE CHECKSUM: e6b3a3292ade4bc13330edb7032f5b4bdcfb8ab6
 
 COCOAPODS: 1.15.2

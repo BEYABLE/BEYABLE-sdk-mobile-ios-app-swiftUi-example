@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-ExampleApplication-ExampleApplicationUITests/Pods-ExampleApplication-ExampleApplicationUITests-frameworks.sh
-${BUILT_PRODUCTS_DIR}/BeyableClient/BeyableClient.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/BeyableClient/BeyableClient.framework/BeyableClient
